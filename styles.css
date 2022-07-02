@@ -1,0 +1,30 @@
+
+
+:root {
+    --bg-color-red: #f03c42;
+    --bg-color-blue: #222374;
+    --bg-color-grey: #CCCCCC;
+    --bg-color-white:  #FFFFFF;
+    --bg-color-black: #00000
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+}
+
+header {
+ background-color: var(--bg-color-red);
+ height: 100px;
+ display: flex;
+}
+a, a:hover {
+    color: unset;
+    text-decoration: none;
+  }
