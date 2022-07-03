@@ -1,30 +1,107 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap");
 
 :root {
-    --bg-color-red: #f03c42;
-    --bg-color-blue: #222374;
-    --bg-color-grey: #CCCCCC;
-    --bg-color-white:  #FFFFFF;
-    --bg-color-black: #00000
-
+  --bg-color-red: #f03c42;
+  --bg-color-blue: #222374;
+  --bg-color-grey: #cccccc;
+  --bg-color-white: #ffffff;
+  --bg-color-black: #00000;
 }
 
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Open Sans, sans-serif;
 }
 
 .container {
-    width: 100%;
-    max-width: 960px;
+  width: 100%;
+  max-width: 960px;
+  margin: auto;
 }
 
 header {
- background-color: var(--bg-color-red);
- height: 100px;
- display: flex;
+  background-color: var(--bg-color-red);
+  height: 100px;
+  display: flex;
 }
-a, a:hover {
-    color: unset;
-    text-decoration: none;
+a,
+a:hover {
+  color: unset;
+  text-decoration: none;
+}
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  color: var(--bg-color-white);
+}
+.nav-content div {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+
+}
+.nav-content a {
+    margin: 20x;
+}
+#our-space {
+  display: flex;
+  height: 418px;
+  background-color: var(--bg-color-blue);
+}
+.our-space-card {
+  display: flex;
+  background-color: var(--bg-color-grey);
+  width: 960px;
+  height: 127px;
+  border-radius: 8px;
+  margin: 20px 0px 20px 0px;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+#our-space H1 {
+  font-size: 32px;
+  color: var(--bg-color-white);
+  margin: 0px 0px 20px 0px;
+  padding-bottom: 20px;
+}
+#our-space p {
+  font-size: 14px;
+}
+
+#modalities {
+    display: flex;
+height: 880px;
+    background-color: var(--bg-color-white);
+}
+.modalities-card {
+    display: flex;
+    background-color: var(--bg-color-blue);
+    width: 960px;
+    height: 106px;
+    border-radius: 8px;
+    margin: 20px 0px 20px 0px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    color: var(--bg-color-white);
+}
+#modalities H1 {
+    font-size: 32px;
+    color: var(--bg-color-red);
+    margin: 0px 0px 20px 0px;
+    padding-bottom: 20px;
   }
+#modalities p {
+    font-size: 14px; 
+}  
+footer {
+    height: 262px;
+    display: flex;
+    color: var(--bg-color-red);
+    background-color: var(--bg-color-black);
+
+}
