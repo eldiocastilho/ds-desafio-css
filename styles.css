@@ -67,6 +67,9 @@ header a  {
   margin: 0px 0px 20px 0px;
   padding-bottom: 20px;
 }
+#our-space h2 {
+    font-size: 20px;
+  }
 #our-space p {
   font-size: 14px;
 }
@@ -94,6 +97,9 @@ header a  {
   margin: 0px 0px 20px 0px;
   padding-bottom: 20px;
 }
+#modalities h2 {
+    font-size: 20px;
+  }
 #modalities p {
   font-size: 14px;
 }
